@@ -1,0 +1,8 @@
+{% load static %}
+
+<h1>Ma super calculatrice</h1>
+<p>{{ nombre1 }} + {{ nombre2 }}, ça fait <strong>{{ totalSomme }}</strong> !<br />
+Nous pouvons également calculer la somme dans le template : {{ nombre1|add:nombre2 }}.</p>
+<p>Et le produit de {{ nombre1 }} x {{ nombre2 }} vaut {{ totalMultiplication }}</p>
+
+<img src="{% static 'blog/2017_07_27--Dominique_20374394_10213948372726666_811384146278005763_n.jpg' %}" alt="Photo de Dominique" width="100">
